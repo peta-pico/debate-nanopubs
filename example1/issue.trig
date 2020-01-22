@@ -9,6 +9,7 @@
 @prefix pav: <http://purl.org/pav/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix np: <http://www.nanopub.org/nschema#> .
+@prefix ibis: <http://example.com/ibis/> .
 
 this:Head {
   this: np:hasAssertion this:assertion;
@@ -18,7 +19,8 @@ this:Head {
 }
 
 this:assertion {
-  this:issue dct:title "Training the community leaders of the next century" ;
+  this:issue a ibis:Issue ;
+    dct:title "Training the community leaders of the next century" ;
     dct:description "What are the skills, people and opportunities that need to be put in place to learn and train 21 century leaders?" .
 }
 
