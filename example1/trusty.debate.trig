@@ -1,5 +1,5 @@
-@prefix this: <http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc> .
-@prefix sub: <http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#> .
+@prefix this: <http://purl.org/np/RA1jSVDRBghrG5QIdVc25iTvru2GGGc8Pbm-8yPYMqhUs> .
+@prefix sub: <http://purl.org/np/RA1jSVDRBghrG5QIdVc25iTvru2GGGc8Pbm-8yPYMqhUs#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
@@ -15,7 +15,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:issue dct:description "What are the skills, people and opportunities that need to be put in place to learn and train 21 century leaders?";
+  sub:issue1 dct:description "What are the skills, people and opportunities that need to be put in place to learn and train 21 century leaders?";
     dct:title "Training the community leaders of the next century";
     a ibis:Issue .
 }
@@ -28,8 +28,8 @@ sub:pubinfo {
   this: dct:created "2020-01-23T13:23:11.694+01:00"^^xsd:dateTime;
     pav:createdBy orcid:0000-0002-1267-0234 .
 }
-@prefix this: <http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4> .
-@prefix sub: <http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#> .
+@prefix this: <http://purl.org/np/RAWHht7nhMYJBWXiczTe9t86h5qYzNwKpn6oSF19m7Fss> .
+@prefix sub: <http://purl.org/np/RAWHht7nhMYJBWXiczTe9t86h5qYzNwKpn6oSF19m7Fss#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix pav: <http://purl.org/pav/> .
@@ -45,7 +45,7 @@ sub:Head {
 }
 
 sub:assertion {
-  sub:issue ibis:respondsTo <http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#issue>;
+  sub:position1 ibis:respondsTo <http://purl.org/np/RA1jSVDRBghrG5QIdVc25iTvru2GGGc8Pbm-8yPYMqhUs#issue1>;
     dct:description "Traditional models fall short in their ability to link the knowledge, skills and concepts covered to the practice of leadership within actual work organizations.";
     dct:title "To develop professionals for success in an environment of strong market forces, changing people issues and shifting leadership competencies, a new educational model will have to be forged.";
     a ibis:Position .
@@ -53,6 +53,68 @@ sub:assertion {
 
 sub:provenance {
   sub:assertion pav:authoredBy <https://debatehub.net/user.php?userid=0b69b945-431a-4ebc-883a-002439f638bc> .
+}
+
+sub:pubinfo {
+  this: dct:created "2020-01-23T13:23:11.694+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <http://purl.org/np/RA_odtUF8OO49WD8MhwqIOv0rpRMAZ0vIwmowB10nMNxU> .
+@prefix sub: <http://purl.org/np/RA_odtUF8OO49WD8MhwqIOv0rpRMAZ0vIwmowB10nMNxU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix ibis: <http://example.com/ibis/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:argument1 ibis:supports <http://purl.org/np/RAWHht7nhMYJBWXiczTe9t86h5qYzNwKpn6oSF19m7Fss#position1>;
+    dct:description """Traditional learning methods most commonly employed in management education provide learning experiences that are inadequate as theyf ail to provide accurate, timely feedback on competency development in the areas most germane to success.
+A good metaphor for this is the function that a professional trainer or coach plays in sports or acting.""";
+    a ibis:Argument .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy <https://debatehub.net/user.php?userid=0b69b945-431a-4ebc-883a-002439f638bc> .
+}
+
+sub:pubinfo {
+  this: dct:created "2020-01-23T13:23:11.694+01:00"^^xsd:dateTime;
+    pav:createdBy orcid:0000-0002-1267-0234 .
+}
+@prefix this: <http://purl.org/np/RAYQsIOg1ilHKiucfbZxhqwz2TYkmTJJ9EuRBnx-_ypkA> .
+@prefix sub: <http://purl.org/np/RAYQsIOg1ilHKiucfbZxhqwz2TYkmTJJ9EuRBnx-_ypkA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix ibis: <http://example.com/ibis/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:argument2 ibis:objectsTo <http://purl.org/np/RAWHht7nhMYJBWXiczTe9t86h5qYzNwKpn6oSF19m7Fss#position1>;
+    dct:description """Focusing on changing the educational model will slow down development and responce to pressing problems
+We need solutions that develop fast and short term positive impact cycles.""";
+    a ibis:Argument .
+}
+
+sub:provenance {
+  sub:assertion pav:authoredBy <https://debatehub.net/user.php?userid=341968f8-f9a7-4fa0-b479-67b838a14c66> .
 }
 
 sub:pubinfo {
