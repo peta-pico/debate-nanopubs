@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nanopublications</title>
+<style>
+body { margin: 20px; font-family: monaco,monospace; font-size: 11pt; color: #444; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #666; }
+.nanopub { margin: 0 0 30px 0; padding: 0px 10px 10px 10px; border-radius: 10px; border: solid; border-width: 1px; }
+.nanopub-prefixes { margin-top: 10px; }
+.nanopub-head { background: #e8e8e8; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-assertion { background: #99ccff; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-provenance { background: #f3a08c; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-pubinfo { background: #ffff66; padding: 10px; margin-top: 10px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="nanopub">
+<div class="nanopub-prefixes">
+@prefix this: &lt;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc">http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc</a>&gt; .<br/>
+@prefix sub: &lt;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#">http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#</a>&gt; .<br/>
+@prefix xsd: &lt;<a href="http://www.w3.org/2001/XMLSchema#">http://www.w3.org/2001/XMLSchema#</a>&gt; .<br/>
+@prefix dct: &lt;<a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>&gt; .<br/>
+@prefix pav: &lt;<a href="http://purl.org/pav/">http://purl.org/pav/</a>&gt; .<br/>
+@prefix np: &lt;<a href="http://www.nanopub.org/nschema#">http://www.nanopub.org/nschema#</a>&gt; .<br/>
+@prefix orcid: &lt;<a href="https://orcid.org/">https://orcid.org/</a>&gt; .<br/>
+@prefix ibis: &lt;<a href="http://example.com/ibis/">http://example.com/ibis/</a>&gt; .<br/>
+
+</div>
+<div class="nanopub-head">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#Head">sub:Head</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc">this:</a> <a href="http://www.nanopub.org/nschema#hasAssertion">np:hasAssertion</a> <a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#assertion">sub:assertion</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasProvenance">np:hasProvenance</a> <a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#provenance">sub:provenance</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasPublicationInfo">np:hasPublicationInfo</a> <a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#pubinfo">sub:pubinfo</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> <a href="http://www.nanopub.org/nschema#Nanopublication">np:Nanopublication</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-assertion">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#assertion">sub:assertion</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#issue">sub:issue</a> <a href="http://purl.org/dc/terms/description">dct:description</a> "What are the skills, people and opportunities that need to be put in place to learn and train 21 century leaders?" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/dc/terms/title">dct:title</a> "Training the community leaders of the next century" ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> <a href="http://example.com/ibis/Issue">ibis:Issue</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-provenance">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#provenance">sub:provenance</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#assertion">sub:assertion</a> <a href="http://purl.org/pav/authoredBy">pav:authoredBy</a> &lt;<a href="https://debatehub.net/user.php?userid=341968f8-f9a7-4fa0-b479-67b838a14c66">https://debatehub.net/user.php?userid=341968f8-f9a7-4fa0-b479-67b838a14c66</a>&gt; . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-pubinfo">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#pubinfo">sub:pubinfo</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc">this:</a> <a href="http://purl.org/dc/terms/created">dct:created</a> "2020-01-23T13:23:11.694+01:00"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/pav/createdBy">pav:createdBy</a> <a href="https://orcid.org/0000-0002-1267-0234">orcid:0000-0002-1267-0234</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Nanopublications</title>
+<style>
+body { margin: 20px; font-family: monaco,monospace; font-size: 11pt; color: #444; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #666; }
+.nanopub { margin: 0 0 30px 0; padding: 0px 10px 10px 10px; border-radius: 10px; border: solid; border-width: 1px; }
+.nanopub-prefixes { margin-top: 10px; }
+.nanopub-head { background: #e8e8e8; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-assertion { background: #99ccff; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-provenance { background: #f3a08c; padding: 10px; margin-top: 10px; border-radius: 10px; }
+.nanopub-pubinfo { background: #ffff66; padding: 10px; margin-top: 10px; border-radius: 10px; }
+</style>
+</head>
+<body>
+<div class="nanopub">
+<div class="nanopub-prefixes">
+@prefix this: &lt;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4">http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4</a>&gt; .<br/>
+@prefix sub: &lt;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#">http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#</a>&gt; .<br/>
+@prefix xsd: &lt;<a href="http://www.w3.org/2001/XMLSchema#">http://www.w3.org/2001/XMLSchema#</a>&gt; .<br/>
+@prefix dct: &lt;<a href="http://purl.org/dc/terms/">http://purl.org/dc/terms/</a>&gt; .<br/>
+@prefix pav: &lt;<a href="http://purl.org/pav/">http://purl.org/pav/</a>&gt; .<br/>
+@prefix np: &lt;<a href="http://www.nanopub.org/nschema#">http://www.nanopub.org/nschema#</a>&gt; .<br/>
+@prefix orcid: &lt;<a href="https://orcid.org/">https://orcid.org/</a>&gt; .<br/>
+@prefix ibis: &lt;<a href="http://example.com/ibis/">http://example.com/ibis/</a>&gt; .<br/>
+
+</div>
+<div class="nanopub-head">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#Head">sub:Head</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4">this:</a> <a href="http://www.nanopub.org/nschema#hasAssertion">np:hasAssertion</a> <a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#assertion">sub:assertion</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasProvenance">np:hasProvenance</a> <a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#provenance">sub:provenance</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.nanopub.org/nschema#hasPublicationInfo">np:hasPublicationInfo</a> <a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#pubinfo">sub:pubinfo</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> <a href="http://www.nanopub.org/nschema#Nanopublication">np:Nanopublication</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-assertion">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#assertion">sub:assertion</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#issue">sub:issue</a> <a href="http://example.com/ibis/respondsTo">ibis:respondsTo</a> &lt;<a href="http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#issue">http://purl.org/np/RAKULvlmjSGhlMb94TaxmMwwBbUsfjAR0dehOazAo7yqc#issue</a>&gt; ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/dc/terms/description">dct:description</a> "Traditional models fall short in their ability to link the knowledge, skills and concepts covered to the practice of leadership within actual work organizations." ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/dc/terms/title">dct:title</a> "To develop professionals for success in an environment of strong market forces, changing people issues and shifting leadership competencies, a new educational model will have to be forged." ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">a</a> <a href="http://example.com/ibis/Position">ibis:Position</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-provenance">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#provenance">sub:provenance</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#assertion">sub:assertion</a> <a href="http://purl.org/pav/authoredBy">pav:authoredBy</a> &lt;<a href="https://debatehub.net/user.php?userid=0b69b945-431a-4ebc-883a-002439f638bc">https://debatehub.net/user.php?userid=0b69b945-431a-4ebc-883a-002439f638bc</a>&gt; . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+<div class="nanopub-pubinfo">
+<span class="nanopub-context-switch"><a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4#pubinfo">sub:pubinfo</a> {<br/></span>
+&nbsp;&nbsp;<a href="http://purl.org/np/RASYoMMHxqvlM7x4PFbJO-H7Xo5ENKJqdKDRGTRoCw0h4">this:</a> <a href="http://purl.org/dc/terms/created">dct:created</a> "2020-01-23T13:23:11.694+01:00"^^<a href="http://www.w3.org/2001/XMLSchema#dateTime">xsd:dateTime</a> ;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://purl.org/pav/createdBy">pav:createdBy</a> <a href="https://orcid.org/0000-0002-1267-0234">orcid:0000-0002-1267-0234</a> . <br/>
+<span class="nanopub-context-switch">}<br/></span>
+</div>
+</div>
