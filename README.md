@@ -6,6 +6,7 @@ Example 1:
 - Based on: [this debate on Debate Hub](https://debatehub.net/explore.php?id=137108661540429254001385484137)
 - [Nanopublications in HTML](https://raw.githack.com/peta-pico/debate-nanopubs/master/example1/trusty.debate.trig.html)
 - [Nanopublication sources](example1/)
+- Uses preliminary classes and relations adopted from [this diagram on Wikipedia](https://en.wikipedia.org/wiki/Issue-based_information_system#/media/File:Issue-based_information_system_(IBIS)_rhetorical_rules_diagram.svg)
 
 Links:
 
